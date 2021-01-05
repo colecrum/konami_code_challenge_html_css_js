@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+  background-color: green;
+}
+
+h1 {
+  color: rgb(248, 222, 126);
+  text-align: center;
+  font-size: 50px;
+}
+
+#thumbnail {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  color: rgb(0, 0, 255);
+  }
+ 
+  .fullCard {
+    width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 20px;
+    margin: auto;
+  }
+
+input {
+  border-radius: 5px;
+  text-align: center;
+}
+
+.stretch-field {
+  display: fixed;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  font-size: 21px;
+  letter-spacing: 5px;
+}
+
+#input-desc {
+  color: rgb(248, 222, 126);
+}
+
+
+
+.level {
+  color: white;
+  font-size: 28px;
+}
+
+.log {
+  color: rgb(248, 222, 126);
+  background-color: black;
+}
+
+.emoji {
+  font-size: 40px;
+}
+
+.canvas {
+  width= 400px;
+  height= 300px;
+}

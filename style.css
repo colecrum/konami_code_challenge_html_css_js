@@ -68,3 +68,24 @@ input {
   width= 400px;
   height= 300px;
 }
+
+#contact-section {
+  color: white;
+  text-align: center;
+}
+
+.contact-links {
+  height: auto;
+  width: 100%;
+}
+
+.contact-img {
+  height: 75px;
+  width: 75px;
+  padding: 25px;
+}
+
+#git-logo {
+  height: 75px;
+  width: 125px;
+}

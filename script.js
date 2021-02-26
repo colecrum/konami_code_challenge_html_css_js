@@ -92,7 +92,7 @@ var index = 0
         index = 0
         /*log1.textContent = ""*/
         document.getElementById("test-input1").innerHTML = ""
-        //^deletes all text content AND the inpit field^
+        //^deletes all text content AND the input field^
         window.requestAnimationFrame(explode)
         //^fireworks frame call
       }

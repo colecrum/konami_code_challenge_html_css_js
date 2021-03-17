@@ -22,12 +22,6 @@ h1 {
   padding-top: 5px;
 }
 
-@media screen and (min-width: 600px) {
-  #disclaimer {
-    display: none;
-  }
-}
-
 #thumbnail {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   color: rgb(0, 0, 255);
@@ -41,13 +35,6 @@ h1 {
     padding: 20px;
     margin: auto;
   }
-
-@media screen and (max-width: 600px) {
-  .fullCard {
-    width: 75%;
-    margin: auto;
-  }
-}
 
 input {
   border-radius: 5px;
@@ -68,13 +55,6 @@ input {
   font-weight: bold;
   font-size: 21px;
   letter-spacing: 5px;
-}
-
-@media screen and (max-width: 600px) {
-  .stretch-field {
-    font-size: 18px;
-    height: auto;
-  }
 }
 
 #input-desc {
@@ -98,6 +78,39 @@ input {
 .canvas {
   width: 400px;
   height: 300px;
+}
+
+@media screen and (min-width: 600px) {
+  #disclaimer {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  #disclaimer {
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fullCard {
+    width: 75%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  .fullCard {
+    width: 75%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .stretch-field {
+    font-size: 18px;
+    height: auto;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -139,5 +152,9 @@ input {
 }
 
 @media screen and (max-width: 600px) {
+  .contact-links {width: 100%;}
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
   .contact-links {width: 100%;}
 }

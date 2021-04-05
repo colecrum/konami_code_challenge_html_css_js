@@ -80,6 +80,7 @@ input {
   height: 300px;
 }
 
+/* MIN-WIDTH */
 @media screen and (min-width: 600px) {
   #disclaimer {
     display: none;
@@ -90,16 +91,6 @@ input {
   #disclaimer {
     display: inline-block;
   }
-}
-
-@media screen and (max-width: 600px) {
-  .fullCard {
-    width: 75%;
-    margin: auto;
-  }
-}
-
-@media screen and (max-width: 800px) and (orientation: landscape) {
   .fullCard {
     width: 75%;
     margin: auto;
@@ -107,18 +98,30 @@ input {
 }
 
 @media screen and (max-width: 600px) {
+  .fullCard {
+    width: 75%;
+    margin: auto;
+  }
   .stretch-field {
     font-size: 18px;
     height: auto;
   }
-}
-
-@media screen and (max-width: 600px) {
   .canvas {
     width: 100%;
     height: auto;
   }
 }
+
+@media screen and (max-width: 1000px) {
+  #disclaimer {
+    display: inline-block;
+  }
+  .fullCard {
+    width: 75%;
+    margin: auto;
+  }
+}
+
 
 /* SIGN-OFF --------------------------------------------*/
 
@@ -156,5 +159,9 @@ input {
 }
 
 @media screen and (max-width: 800px) and (orientation: landscape) {
+  .contact-links {width: 100%;}
+}
+
+@media screen and (max-width: 1000px) {
   .contact-links {width: 100%;}
 }
